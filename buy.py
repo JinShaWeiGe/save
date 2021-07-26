@@ -1,16 +1,14 @@
+from get_xls import XMLData
+
 from selenium import webdriver
+
+import xlwt
 
 import time
 import sys
-import xlwt
-import multiprocessing
 import shutil
 import os
 import math
-from multiprocessing import Process
-import multiprocessing
-
-from get_xls import XMLData
 
 
 class Browser(object):
